@@ -143,3 +143,59 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+@media (max-width: 1020px) {
+
+#title {
+  text-align: center;
+}
+
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 30px;
+  }
+}
+
+/* Call to action  */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.cta {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 3% 25%;
+  font-size: 3rem;
+}
+
+.button-cta {
+  margin: 3% 3% 1% 0;
+}
+
+/* footer */
+
+.socials {
+  color: #000;
+  text-align: center;
+  font-size: 1.5rem;
+margin: 1rem 2rem;
+}
+
+
+
+
+.Copyright {
+  text-align: center;
+    font-family: "ubuntu";
+    font-weight: lighter;
+    color: #8f8f8f;
+  }
+}
